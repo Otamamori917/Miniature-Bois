@@ -122,9 +122,6 @@ weapons: [
     shootSound: beam
     continuous: true
     cooldownTime: 170
-    immunities: [
-        StatusEffect: burning
-    ]
     bullet: {
         type: ContinuousLaserBulletType
         maxRange: 23
@@ -194,6 +191,55 @@ weapons: [
           98ffa9
           FFFFFF
         ]
+    }
+  }
+  {
+    name: micro-emp-cannon-mount
+    rotate: true
+    x: 5
+    y: -1
+    reload: 65
+    shake: 3
+    rotateSpeed: 2
+    shadow: 8
+    shootY: 2
+    recoil: 4
+    cooldownTime: 55
+    shootSound: laser
+    mirror: true
+    bullet: {
+        scaleLife: true
+        lightOpacity: 0.7
+        unitDamageScl: 0.8
+        healPercent: 20
+        timeIncrease: 3
+        timeDuration: 60f * 20
+        powerDamageScl: 3
+        damage: 15
+        hitColor: 98ffa9
+        lightColor: 98ffa9
+        lightRadius: 70
+        clipSize: 250
+        shootEffect: hitEmpSpark
+        smokeEffect: shootBigSmoke2
+        lifetime: 60
+        sprite: "circle-bullet"
+        backColor: 98ffa9
+        frontColor: FFFFF
+        width: 3
+        height: 3
+        shrinkY: 0
+        speed: 5
+        trailLength: 20
+        trailWidth: 6
+        trailColor: 98ffa9
+        trailInterval: 3
+        splashDamage: 18
+        splashDamageRadius: 25
+        hitShake: 4
+        trailRotation: true
+        status: electrified
+        hitSound: plasmaboom
     }
   }
 ]
