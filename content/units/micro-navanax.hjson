@@ -20,10 +20,145 @@ weapons: [
     autoTarget: true
     mirror: false
     shake: 3
-    shootY: 6
+    shootY: 12
     rotate: true
     x: 6
     y: 4
+    targetInterval: 20
+    targetSwitchInterval: 35
+    rotateSpeed: 3.5
+    reload: 170
+    recoil: 1
+    shootSound: beam
+    continuous: true
+    cooldownTime: 170
+    bullet: {
+        type: ContinuousLaserBulletType
+        maxRange: 23
+        damage: 7
+        length: 24
+        hitEffect: hitMeltHeal
+        drawSize: 50
+        lifetime: 155
+        shake: 1
+        shootEffect: shootHeal
+        smokeEffect: none
+        width: 1
+        largeHit: false
+        incendChance: 0.03
+        incendSpread: 5
+        incendAmount: 1
+        healPercent: 0.4
+        collidesTeam: true
+        colors: [
+          98ffa9
+          98ffa9
+          98ffa9
+          FFFFFF
+        ]
+    }
+  }
+  {
+    name: micro-plasma-laser-mount
+    shadow: 5
+    controllable: false
+    autoTarget: true
+    mirror: false
+    shake: 3
+    shootY: 12
+    rotate: true
+    x: -6
+    y: 4
+    targetInterval: 20
+    targetSwitchInterval: 35
+    rotateSpeed: 3.5
+    reload: 170
+    recoil: 1
+    shootSound: beam
+    continuous: true
+    cooldownTime: 170
+    bullet: {
+        type: ContinuousLaserBulletType
+        maxRange: 23
+        damage: 7
+        length: 24
+        hitEffect: hitMeltHeal
+        drawSize: 50
+        lifetime: 155
+        shake: 1
+        shootEffect: shootHeal
+        smokeEffect: none
+        width: 1
+        largeHit: false
+        incendChance: 0.03
+        incendSpread: 5
+        incendAmount: 1
+        healPercent: 0.4
+        collidesTeam: true
+        colors: [
+          98ffa9
+          98ffa9
+          98ffa9
+          FFFFFF
+        ]
+    }
+  }
+  {
+    name: micro-plasma-laser-mount
+    shadow: 5
+    controllable: false
+    autoTarget: true
+    mirror: false
+    shake: 3
+    shootY: 12
+    rotate: true
+    x: 6
+    y: -4
+    targetInterval: 20
+    targetSwitchInterval: 35
+    rotateSpeed: 3.5
+    reload: 170
+    recoil: 1
+    shootSound: beam
+    continuous: true
+    cooldownTime: 170
+    bullet: {
+        type: ContinuousLaserBulletType
+        maxRange: 23
+        damage: 7
+        length: 24
+        hitEffect: hitMeltHeal
+        drawSize: 50
+        lifetime: 155
+        shake: 1
+        shootEffect: shootHeal
+        smokeEffect: none
+        width: 1
+        largeHit: false
+        incendChance: 0.03
+        incendSpread: 5
+        incendAmount: 1
+        healPercent: 0.4
+        collidesTeam: true
+        colors: [
+          98ffa9
+          98ffa9
+          98ffa9
+          FFFFFF
+        ]
+    }
+  }
+  {
+    name: micro-plasma-laser-mount
+    shadow: 5
+    controllable: false
+    autoTarget: true
+    mirror: false
+    shake: 3
+    shootY: 12
+    rotate: true
+    x: -6
+    y: -4
     targetInterval: 20
     targetSwitchInterval: 35
     rotateSpeed: 3.5
