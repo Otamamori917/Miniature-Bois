@@ -7,15 +7,15 @@ rotateSpeed: 1
 accel: 0.04
 drag: 0.018
 flying: true
-engineOffset: 46
-engineSize: 7.8
+engineOffset: 12
+engineSize: 2.2
 faceTarget: false
 hitSize: 16
 payloadCapacity: 2.5
 buildSpeed: 4
 drawShields: false
 lowAltitude: true
-buildBeamOffset: 43
+buildBeamOffset: 11
 ammoCapacity: 1
 abilities: [
   {
