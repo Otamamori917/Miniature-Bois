@@ -21,7 +21,7 @@ weapons: [
     reload: 45
     recoil: 4
     shootSound: laser
-    shadow: 20
+    shadow: 5
     rotate: true
     bullet: {
         type: LaserBulletType
@@ -46,7 +46,7 @@ weapons: [
     rotateSpeed: 2
     reload: 9
     shootSound: shoot
-    shadow: 7
+    shadow: 2
     rotate: true
     recoil: 0.5
     shootY: 2.07
@@ -73,7 +73,7 @@ weapons: [
     shake: 1
     shootSound: shoot
     rotate: true
-    shadow: 12
+    shadow: 3
     shootY: 2.07
     mirror: true
     bullet: {
