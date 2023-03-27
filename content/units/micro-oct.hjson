@@ -31,9 +31,9 @@ weapons: [
         shootEffect: hitEmpSpark
         smokeEffect: shootBigSmoke2
         lifetime: 60
-        sprite: "circle-bullet"
+        sprite: circle-bullet
         backColor: 98ffa9
-        frontColor: FFFFF
+        frontColor: FFFFFF
         width: 3
         height: 3
         shrinkY: 0
