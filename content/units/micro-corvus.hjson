@@ -7,7 +7,7 @@ rotateSpeed: 1.5
 drownTimeMultiplier: 6
 legCount: 4
 legLength: 4
-legBaseOffset: 11
+legBaseOffset: 3
 legMoveSpace: 1.5
 legForwardScl: 0.58
 hovering: true
@@ -32,7 +32,7 @@ weapons: [
     shootStatusDuration: 60
     shootStatus: unmoving
     shoot: {
-        firstShotDelay: 60
+        firstShotDelay: 80
     }
     parentizeEffects: true
     bullet: {
