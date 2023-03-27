@@ -1,53 +1,35 @@
 type: flying
-weapons: [
+aiController: DefenderAI
+armor: 16
+health: 6000
+speed: 0.8
+rotateSpeed: 1
+accel: 0.04
+drag: 0.018
+flying: true
+engineOffset: 46
+engineSize: 7.8
+faceTarget: false
+hitSize: 16
+payloadCapacity: 2.5
+buildSpeed: 4
+drawShields: false
+lowAltitude: true
+buildBeamOffset: 43
+ammoCapacity: 1
+abilities: [
   {
-    name: micro-emp-cannon-mount
-    rotate: true
-    x: 5
-    y: -1
-    reload: 65
-    shake: 3
-    rotateSpeed: 2
-    shadow: 8
-    shootY: 2
-    recoil: 4
-    cooldownTime: 55
-    shootSound: laser
-    mirror: true
-    bullet: {
-        type: EmpBulletType
-        scaleLife: true
-        lightOpacity: 0.7
-        unitDamageScl: 0.8
-        healPercent: 20
-        timeIncrease: 3
-        timeDuration: 60
-        powerDamageScl: 3
-        damage: 15
-        hitColor: 98ffa9
-        lightColor: 98ffa9
-        lightRadius: 70
-        clipSize: 250
-        shootEffect: hitEmpSpark
-        smokeEffect: shootBigSmoke2
-        lifetime: 60
-        sprite: circle-bullet
-        backColor: 98ffa9
-        frontColor: FFFFFF
-        width: 3
-        height: 3
-        shrinkY: 0
-        speed: 5
-        trailLength: 20
-        trailWidth: 6
-        trailColor: 98ffa9
-        trailInterval: 3
-        splashDamage: 18
-        splashDamageRadius: 25
-        hitShake: 4
-        trailRotation: true
-        status: electrified
-        hitSound: plasmaboom
-    }
+   type: ForceFieldAbility
+   max: 3500
+   sides: 8
+   radius: 30
+   regen: 2
+   cooldown: 300
+  }
+  {
+  type: RepairFieldAbility
+  amount: 50
+  reload: 60
+  range: 35
   }
 ]
