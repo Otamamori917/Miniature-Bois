@@ -9,17 +9,44 @@ rotateSpeed: 0.9
 faceTarget: false
 abilities: [
   {
-   type: ForceFieldAbility
-   max: 3500
-   sides: 8
-   radius: 30
-   regen: 2
-   cooldown: 300
+  type: UnitSpawnAbility
+  unit: flare
+  spawnTime: 30
+  spawnY: -6
   }
+]
+trailLength: 18
+waveTrailX: 12
+waveTrailY: -16
+trailScl: 1.75
+weapons: [
   {
-  type: RepairFieldAbility
-  amount: 50
-  reload: 60
-  range: 35
+    name: none
+    reload: 110
+    cooldownTime: 90
+    mirror: false
+    x: 0
+    y: -1.75
+    rotateSpeed: 1.4
+    rotate: true
+    shootY: 23
+    shake: 6
+    recoil: 10.5
+    shadow: 50
+    shootSound: railgun
+    ejectEffect: none
+    parentizeEffects: true
+    bullet: {
+        type: RailBulletType
+        shootEffect: railShoot
+        length: 250
+        pointEffectSpace: 60
+        pierceEffect: railHit
+        pointEffect: railTrail
+        hitEffect: massiveExplosion
+        smokeEffect: shootBig2
+        damage: 312
+        pierceDamageFactor: 0.5
+    }
   }
 ]
