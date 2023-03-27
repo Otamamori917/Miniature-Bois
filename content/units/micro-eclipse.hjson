@@ -1,1 +1,91 @@
 type: flying
+speed: 0.54
+accel: 0.04
+drag: 0.04
+rotateSpeed: 1
+flying: true
+lowAltitude: true
+health: 5500
+engineOffset: 10
+engineSize: 2.4
+hitSize: 15
+armor: 13
+weapons: [
+  {
+    name: micro-laser-mount
+    shake: 4
+    shootY: 3
+    x: 5
+    y: 2
+    rotateSpeed: 2
+    reload: 45
+    recoil: 4
+    shootSound: laser
+    shadow: 20
+    rotate: true
+    bullet: {
+        type: LaserBulletType
+        damage: 29
+        sideAngle: 20
+        sideWidth: 0.4
+        sideLength: 20
+        width: 7
+        length: 58
+        shootEffect: shockwave
+        colors: [
+  ec7458
+  ff9c5a
+  FFFFFF
+        ]
+    }
+  }
+  {
+    name: micro-artillery
+    x: 3
+    y: 7
+    rotateSpeed: 2
+    reload: 9
+    shootSound: shoot
+    shadow: 7
+    rotate: true
+    recoil: 0.5
+    shootY: 2.07
+    mirror: true
+    bullet: {
+        type: FlakBulletType
+        shootEffect: shootBig
+        ammoMultiplier: 4
+        splashDamage: 65
+        splashDamageRadius: 25
+        collidesGround: true
+        lifetime: 47
+        status: blasted
+        statusDuration: 60
+    }
+  }
+  {
+    name: micro-artillery
+    y: -4
+    x: 5
+    reload: 12
+    ejectEffect: casing1
+    rotateSpeed: 7
+    shake: 1
+    shootSound: shoot
+    rotate: true
+    shadow: 12
+    shootY: 2.07
+    mirror: true
+    bullet: {
+        type: FlakBulletType
+        shootEffect: shootBig
+        ammoMultiplier: 4
+        splashDamage: 65
+        splashDamageRadius: 25
+        collidesGround: true
+        lifetime: 47
+        status: blasted
+        statusDuration: 60
+    }
+  }
+]
