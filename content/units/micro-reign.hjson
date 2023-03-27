@@ -5,10 +5,10 @@ rotateSpeed: 1.65
 health: 6000
 armor: 14
 mechStepParticles: true
-stepShake: 0.75
+stepShake: 0.20
 drownTimeMultiplier: 6
-mechFrontSway: 1.9
-mechSideSway: 0.6
+mechFrontSway: 0.5
+mechSideSway: 0.2
 weapons: [
   {
     name: micro-reign-weapon
