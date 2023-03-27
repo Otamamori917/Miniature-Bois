@@ -122,9 +122,9 @@ weapons: [
     shootSound: beam
     continuous: true
     cooldownTime: 170
-    immunities: (
+    immunities: [
         StatusEffect: burning
-    )
+    ]
     bullet: {
         type: ContinuousLaserBulletType
         maxRange: 23
