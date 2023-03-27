@@ -11,7 +11,7 @@ abilities: [
   {
   type: UnitSpawnAbility
   unit: flare
-  spawnTime: 300
+  spawnTime: 600
   spawnY: -6
   }
 ]
@@ -22,6 +22,7 @@ trailScl: 1.75
 weapons: [
   {
     name: micro-omura-cannon
+    layerOffset: 10
     reload: 110
     cooldownTime: 90
     mirror: false
