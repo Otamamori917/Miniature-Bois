@@ -13,8 +13,8 @@ consumes: {
         silicon/2250
         thorium/750 
         plastanium/600
-        phaseFabric/600 
-        surgeAlloy/800
+        phase-fabric/600 
+        surge-alloy/800
     ]
   }
 }
