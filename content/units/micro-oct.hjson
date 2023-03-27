@@ -1,5 +1,5 @@
 type: flying
-aiController: DefenderAI
+defaultController: DefenderAI
 armor: 16
 health: 6000
 speed: 0.8
