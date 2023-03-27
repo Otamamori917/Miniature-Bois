@@ -13,8 +13,8 @@ weapons: [
   {
     name: micro-reign-weapon
     top: false
-    y: 1
-    x: 6.3
+    y: 0
+    x: 5.8
     shootY: 3
     reload: 9
     recoil: 5
