@@ -47,8 +47,8 @@ requirements: [
     silicon/4000
     thorium/2000
     plastanium/1600
-    phaseFabric/1600 
-    surgeAlloy/1800
+    phase-fabric/1600 
+    surge-alloy/1800
 ]
 category: units
 research: {
@@ -58,7 +58,7 @@ research: {
     silicon/5000
     thorium/2800
     plastanium/2600
-    phaseFabric/2600 
-    surgeAlloy/2500
+    phase-fabric/2600 
+    surge-alloy/2500
   ]
 }
