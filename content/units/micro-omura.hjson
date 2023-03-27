@@ -1,0 +1,25 @@
+type: naval
+health: 5500
+speed: 0.62
+drag: 0.18
+hitSize: 15
+armor: 16
+accel: 0.19
+rotateSpeed: 0.9
+faceTarget: false
+abilities: [
+  {
+   type: ForceFieldAbility
+   max: 3500
+   sides: 8
+   radius: 30
+   regen: 2
+   cooldown: 300
+  }
+  {
+  type: RepairFieldAbility
+  amount: 50
+  reload: 60
+  range: 35
+  }
+]

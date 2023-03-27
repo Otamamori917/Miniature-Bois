@@ -5,10 +5,63 @@ size: 2
 consumes: {
  power: 7
 }
-
 plans: [ 
   {
     unit: micro-toxopid
+    requirements: [
+      titanium/50
+      copper/50
+      lead/50
+    ]
+    time: 50
+  }
+  {
+    unit: micro-corvus
+    requirements: [
+      titanium/50
+      copper/50
+      lead/50
+    ]
+    time: 50
+  }
+  {
+    unit: micro-eclipse
+    requirements: [
+      titanium/50
+      copper/50
+      lead/50
+    ]
+    time: 50
+  }
+  {
+    unit: micro-navanax
+    requirements: [
+      titanium/50
+      copper/50
+      lead/50
+    ]
+    time: 50
+  }
+  {
+    unit: micro-oct
+    requirements: [
+      titanium/50
+      copper/50
+      lead/50
+    ]
+    time: 50
+  }
+  {
+    unit: micro-omura
+    requirements: [
+      titanium/50
+      copper/50
+      lead/50
+    ]
+    time: 50
+  }
+  {
+    unit: micro-reign
     requirements: [
       titanium/50
       copper/50
