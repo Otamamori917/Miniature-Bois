@@ -31,7 +31,7 @@ weapons: [
     recoil: 1
     shootSound: beam
     continuous: true
-    cooldownTime: reload
+    cooldownTime: 170
     bullet: {
         type: ContinuousLaserBulletType
         maxRange: 23
