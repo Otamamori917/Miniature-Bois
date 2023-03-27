@@ -31,8 +31,8 @@ weapons: [
     rotate: true
     shootY: 23
     shake: 6
-    recoil: 10.5
-    shadow: 50
+    recoil: 3
+    shadow: 13
     shootSound: railgun
     ejectEffect: none
     parentizeEffects: true
