@@ -24,7 +24,8 @@ weapons: [
     mirror: false
     shake: 14
     shootY: 2
-    x: y: 0
+    x: 0
+    y: 0
     reload: 350
     recoil: 0
     cooldownTime: 350
