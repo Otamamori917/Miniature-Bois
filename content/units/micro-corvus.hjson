@@ -37,7 +37,7 @@ weapons: [
     parentizeEffects: true
     bullet: {
         type: LaserBulletType
-        length: 115
+        length: 215
         damage: 140
         width: 19
         lifetime: 65
