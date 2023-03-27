@@ -21,7 +21,7 @@ weapons: [
         unitDamageScl: 0.8
         healPercent: 20
         timeIncrease: 3
-        timeDuration: 60f * 20
+        timeDuration: 60
         powerDamageScl: 3
         damage: 15
         hitColor: 98ffa9
