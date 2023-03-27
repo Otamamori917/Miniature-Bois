@@ -77,11 +77,13 @@ weapons: [
     shootY: 2.07
     mirror: true
     bullet: {
+        width: 2
+        height: 3
         type: FlakBulletType
         shootEffect: shootBig
         ammoMultiplier: 4
-        splashDamage: 65
-        splashDamageRadius: 25
+        splashDamage: 17
+        splashDamageRadius: 7
         collidesGround: true
         lifetime: 47
         status: blasted
