@@ -20,10 +20,10 @@ weapons: [
     autoTarget: true
     mirror: false
     shake: 3
-    shootY: 2
+    shootY: 3
     rotate: true
-    x: 21
-    y: 10
+    x: 8
+    y: 5
     targetInterval: 20
     targetSwitchInterval: 35
     rotateSpeed: 3.5
