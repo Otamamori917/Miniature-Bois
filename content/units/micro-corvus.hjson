@@ -57,8 +57,8 @@ weapons: [
         sideWidth: 0
         sideLength: 0
         colors: [
-          98FF98
-          7CFC00
+          98ffa9
+          98ffa9
           FFFFFF
         ]
     }

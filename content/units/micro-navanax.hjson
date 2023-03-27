@@ -51,8 +51,9 @@ weapons: [
         healPercent: 0.4
         collidesTeam: true
         colors: [
-          98FF98
-          7CFC00
+          98ffa9
+          98ffa9
+          98ffa9
           FFFFFF
         ]
     }
