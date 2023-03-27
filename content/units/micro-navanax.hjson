@@ -238,7 +238,7 @@ weapons: [
         splashDamage: 18
         splashDamageRadius: 25
         hitShake: 4
-        trailRotation: true
+        trailRotation: false
         status: electrified
         hitSound: plasmaboom
     }
