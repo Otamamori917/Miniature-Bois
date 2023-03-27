@@ -1,5 +1,6 @@
 type: flying
-{
+weapons: [
+  {
     name: micro-emp-cannon-mount
     rotate: true
     x: 5
@@ -49,3 +50,4 @@ type: flying
         hitSound: plasmaboom
     }
   }
+]
