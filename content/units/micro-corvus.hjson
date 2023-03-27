@@ -1,0 +1,65 @@
+type: legs
+hitSize: 8
+health: 4500
+armor: 9
+stepShake: 1.5
+rotateSpeed: 1.5
+drownTimeMultiplier: 6
+legCount: 4
+legLength: 4
+legBaseOffset: 11
+legMoveSpace: 1.5
+legForwardScl: 0.58
+hovering: true
+shadowElevation: 0.2
+speed: 0.3
+drawShields: false
+weapons: [
+  {
+    name: none
+    shootSound: laserblast
+    chargeSound: lasercharge
+    soundPitchMin: 1
+    top: false
+    mirror: false
+    shake: 14
+    shootY: 2
+    x: y: 0
+    reload: 350
+    recoil: 0
+    cooldownTime: 350
+    shootStatusDuration: 60
+    shootStatus: unmoving
+    shoot: {
+        firstShotDelay: 60
+    }
+    parentizeEffects: true
+    bullet: {
+        type: LaserBulletType
+        length: 115
+        damage: 140
+        width: 19
+        lifetime: 65
+        lightningSpacing: 6
+        lightningLength: 2
+        lightningDelay: 1.1
+        lightningLengthRand: 14
+        lightningDamage: 13
+        lightningAngleRand: 10
+        largeHit: true
+        lightColor: 98FF98
+        lightningColor: 98FF98
+        chargeEffect: greenLaserCharge
+        healPercent: 25
+        collidesTeam: true
+        sideAngle: 15
+        sideWidth: 0
+        sideLength: 0
+        colors: [
+          98FF98
+          7CFC00
+          FFFFFF
+        ]
+    }
+  }
+]

@@ -1,0 +1,117 @@
+type: legs
+name: BB toxipid
+description: a tiny boi
+drag: 0.1 
+speed: 0.5
+hitSize: 7
+health: 5500
+armor: 13
+lightRadius: 140
+rotateSpeed: 1.9
+drownTimeMultiplier: 3
+legCount: 8
+legMoveSpace: 0.9
+legPairOffset: 3
+legLength: 19
+legExtension: -5
+legBaseOffset: 2
+stepShake: 1
+legLengthScl: 0.93
+rippleScale: 3
+legSpeed: 0.2
+legSplashDamage: 80
+legSplashRange: 60
+hovering: true
+shadowElevation: 0.95
+weapons: [
+  {
+    name: micro-purple-mount
+    reload: 30
+    x: 3
+    y: -2
+    shootY: 2
+    shake: 4
+    rotateSpeed: 2
+    rotate: true
+    recoil: 1
+    inaccuracy: 20
+    shoot: {
+        shots: 2
+        shotDelay: 0
+    }
+    mirror: true
+    bullet: {
+      type: ShrapnelBulletType
+      length: 23
+      damage: 28
+      width: 27
+      serrationLenScl: 7
+      serrationSpaceOffset: 15
+      serrationFadeOffset: 0
+      serrations: 3
+      serrationWidth: 2
+      fromColor: bf92f9
+      toColor: A020F0
+    }
+  }
+    {
+    name: micro-toxopid-cannon
+    y: -4
+    x: 0
+    shootY: 6
+    mirror: false
+    reload: 210
+    shake: 10
+    recoil: 3
+    rotateSpeed: 1
+    shootSound: artillery
+    rotate: true
+    rotationLimit: 80
+    bullet: {
+        type: ArtilleryBulletType
+        hitEffect: sapExplosion
+        knockback: 0.8
+        lifetime: 100
+        width: 7
+        height: 7
+        collidesTiles: true
+        splashDamageRadius: 20
+        splashDamage: 24
+        backColor: bf92f9
+        frontColor: A020F0
+        lightning: 5
+        lightningLength: 5
+        smokeEffect: shootBigSmoke2
+        hitShake: 10
+        lightRadius: 10
+        lightColor: A020F0
+        lightOpacity: 0.6
+        status: sapped
+        statusDuration: 60
+        fragLifeMin: 0.3
+        fragBullets: 9
+        fragBullet: {
+            type: ArtilleryBulletType
+            hitEffect: sapExplosion
+            knockback: 0.8
+            lifetime: 90
+            width: 5
+            height: 5
+            collidesTiles: false
+            splashDamageRadius: 6
+            splashDamage: 10
+            backColor: bf92f9
+            frontColor: A020F0
+            lightning: 2
+            lightningLength: 2
+            smokeEffect: shootBigSmoke2
+            hitShake: 5
+            lightRadius: 8
+            lightColor: A020F0
+            lightOpacity: 0.5
+            status: sapped
+            statusDuration: 60
+        }        
+    }
+  }
+]

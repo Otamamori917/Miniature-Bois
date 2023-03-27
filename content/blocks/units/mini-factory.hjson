@@ -1,0 +1,34 @@
+type: unitFactory
+name: Mini Factory
+description: creates miniature T5's
+size: 2
+consumes: {
+ power: 7
+}
+
+plans: [ 
+  {
+    unit: micro-toxopid
+    requirements: [
+      titanium/50
+      copper/50
+      lead/50
+    ]
+    time: 50
+  }
+]
+requirements: [
+  titanium/1
+  copper/1
+  lead/1
+]
+category: units
+research: {
+  parent: ground-factory
+  requirements: [
+    titanium/1
+    copper/1
+    lead/1
+  ]
+}
+
