@@ -11,7 +11,7 @@ abilities: [
   {
   type: UnitSpawnAbility
   unit: flare
-  spawnTime: 30
+  spawnTime: 300
   spawnY: -6
   }
 ]
@@ -21,7 +21,7 @@ waveTrailY: -16
 trailScl: 1.75
 weapons: [
   {
-    name: none
+    name: micro-omura-cannon
     reload: 110
     cooldownTime: 90
     mirror: false
@@ -40,7 +40,7 @@ weapons: [
         type: RailBulletType
         shootEffect: railShoot
         length: 250
-        pointEffectSpace: 60
+        pointEffectSpace: 20
         pierceEffect: railHit
         pointEffect: railTrail
         hitEffect: massiveExplosion
