@@ -27,7 +27,7 @@ weapons: [
         pierceCap: 10
         width: 4
         height: 9
-        lifetime: 15
+        lifetime: 35
         shootEffect: shootBig
         fragVelocityMin: 0.4
         hitEffect: blastExplosion
