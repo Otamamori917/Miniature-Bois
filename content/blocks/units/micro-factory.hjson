@@ -9,79 +9,79 @@ plans: [
   {
     unit: micro-toxopid
     requirements: [
-      titanium/50
-      copper/50
-      lead/50
+      silicon/450
+      thorium/150
+      lead/500
     ]
-    time: 50
+    time: 3600
   }
   {
     unit: micro-corvus
     requirements: [
-      titanium/50
-      copper/50
-      lead/50
+      silicon/450
+      thorium/150
+      lead/500
     ]
-    time: 50
+    time: 3600
   }
   {
     unit: micro-eclipse
     requirements: [
-      titanium/50
-      copper/50
-      lead/50
+      silicon/450
+      thorium/150
+      lead/500
     ]
-    time: 50
+    time: 3600
   }
   {
     unit: micro-navanax
     requirements: [
-      titanium/50
-      copper/50
-      lead/50
+      silicon/450
+      thorium/150
+      lead/500
     ]
-    time: 50
+    time: 3600
   }
   {
     unit: micro-oct
     requirements: [
-      titanium/50
-      copper/50
-      lead/50
+      silicon/450
+      thorium/150
+      lead/500
     ]
-    time: 50
+    time: 3600
   }
   {
     unit: micro-omura
     requirements: [
-      titanium/50
-      copper/50
-      lead/50
+      silicon/450
+      thorium/150
+      lead/500
     ]
-    time: 50
+    time: 3600
   }
   {
     unit: micro-reign
     requirements: [
-      titanium/50
-      copper/50
-      lead/50
+      silicon/450
+      thorium/150
+      lead/500
     ]
-    time: 50
+    time: 3600
   }
 ]
 requirements: [
-  titanium/1
-  copper/1
-  lead/1
+  silicon/750
+  thorium/250
+  lead/1000
 ]
 category: units
 research: {
   parent: ground-factory
   requirements: [
-    titanium/1
-    copper/1
-    lead/1
+    silicon/7500
+    thorium/2500
+    lead/10000
   ]
 }
 

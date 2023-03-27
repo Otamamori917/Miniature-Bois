@@ -1,0 +1,64 @@
+name: Mass Upgrader
+description: upgrades baby T5's
+type: reconstructor
+size: 10
+consumes: { 
+  power: 20
+  items: {
+    liquids: [
+        cryofluid/180
+    ]
+    items: [
+        lead/3000 
+        silicon/2250
+        thorium/750 
+        plastanium/600
+        phaseFabric/600 
+        surgeAlloy/800
+    ]
+  }
+}
+constructTime: 10800
+upgrades: [
+  [
+    micro-corvus, corvus
+  ]
+  [
+    micro-eclipse, eclipse
+  ]
+  [
+    micro-navanax, navanax
+  ]
+  [
+    micro-oct, oct
+  ]
+  [
+    micro-omura, omura
+  ]
+  [
+    micro-reign, reign
+  ]
+  [
+    micro-toxopid, toxopid
+  ]
+]
+requirements: [ 
+    lead/4000 
+    silicon/4000
+    thorium/2000
+    plastanium/1600
+    phaseFabric/1600 
+    surgeAlloy/1800
+]
+category: units
+research: {
+  parent: micro-factory
+  requirements: [
+    lead/6000 
+    silicon/5000
+    thorium/2800
+    plastanium/2600
+    phaseFabric/2600 
+    surgeAlloy/2500
+  ]
+}
