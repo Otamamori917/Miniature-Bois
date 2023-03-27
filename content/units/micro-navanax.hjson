@@ -208,6 +208,7 @@ weapons: [
     shootSound: laser
     mirror: true
     bullet: {
+        type: EmpBulletType
         scaleLife: true
         lightOpacity: 0.7
         unitDamageScl: 0.8
