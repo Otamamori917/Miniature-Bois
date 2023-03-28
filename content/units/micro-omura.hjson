@@ -1,6 +1,6 @@
 type: naval
 name: BB Omura
-description: smaller and cheaper toxopid
+description: smaller and cheaper omura
 health: 5500
 speed: 0.62
 drag: 0.18
