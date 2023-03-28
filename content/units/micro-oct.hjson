@@ -1,4 +1,6 @@
 type: flying
+name: BB Oct
+description: smaller and cheaper oct
 defaultController: DefenderAI
 armor: 16
 health: 6000

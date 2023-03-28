@@ -1,4 +1,6 @@
 type: naval
+name: BB Navanax
+description: smaller and cheaper navanax
 health: 5000
 speed: 0.65
 drag: 0.17

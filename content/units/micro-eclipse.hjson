@@ -1,4 +1,6 @@
 type: flying
+name: BB Eclipce
+description: smaller and cheaper eclipce
 speed: 0.54
 accel: 0.04
 drag: 0.04

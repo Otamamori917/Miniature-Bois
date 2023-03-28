@@ -1,6 +1,6 @@
 type: legs
-name: BB toxipid
-description: a tiny boi
+name: BB Toxipid
+description: smaller and cheaper toxopid
 drag: 0.1 
 speed: 0.5
 hitSize: 7

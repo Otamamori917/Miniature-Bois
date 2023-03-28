@@ -1,4 +1,6 @@
 type: legs
+name: BB Corvus
+description: smaller and cheaper corvus
 hitSize: 8
 health: 4500
 armor: 9

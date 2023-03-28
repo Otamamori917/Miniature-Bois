@@ -1,4 +1,6 @@
 type: mech
+name: BB Reign
+description: smaller and cheaper reign
 speed: 0.35
 hitSize: 7
 rotateSpeed: 1.65
